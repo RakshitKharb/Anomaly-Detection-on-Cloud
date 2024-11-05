@@ -1,0 +1,17 @@
+name: cost-prediction-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - pandas
+  - numpy
+  - pip:
+      - joblib
+      - azure-ai-ml
+      - azure-identity
+      - fastapi
+      - uvicorn
+      - python-dotenv
+      - requests

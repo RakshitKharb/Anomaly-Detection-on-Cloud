@@ -1,0 +1,12 @@
+azure-ai-ml
+azure-identity
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+fastapi
+uvicorn
+python-dotenv
+azure-storage-blob
+

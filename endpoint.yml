@@ -1,0 +1,4 @@
+$schema: https://azuremlschemas.azureedge.net/latest/OnlineEndpoint.schema.json
+name: cost-prediction-endpoint
+description: Endpoint for Cost Prediction Model
+auth_mode: key

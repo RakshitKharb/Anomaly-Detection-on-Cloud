@@ -1,0 +1,12 @@
+$schema: https://azuremlschemas.azureedge.net/latest/onlineDeployment.schema.json
+name: cost-prediction-deployment
+endpoint_name: cost-prediction-endpoint
+model:
+  name: cost-prediction-model
+  version: 1
+environment: cost-prediction-env
+instance_type: Standard_F4s
+scale_settings:
+  min_replicas: 1
+  max_replicas: 1
+  scale_type: default
